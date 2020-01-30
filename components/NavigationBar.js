@@ -54,7 +54,7 @@ const NavigationBar = () => {
   return (
     <StyledDiv>
       <Navbar color="white" light expand="md" fixed="top">
-        <NavbarBrand href="/">SourceDev</NavbarBrand>
+        <NavbarBrand href="/">SourceDiv</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
