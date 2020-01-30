@@ -22,10 +22,8 @@ const NavigationBar = props => {
 
   return (
     <div>
-      <Navbar color="faded" light expand="md" fixed="top">
-        <NavbarBrand>
-          <NavLink href="/">SourceDiv</NavLink>
-        </NavbarBrand>
+      <Navbar color="white" light expand="md" fixed="top">
+        <NavbarBrand>SourceDiv</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

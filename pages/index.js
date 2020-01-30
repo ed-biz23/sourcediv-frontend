@@ -6,8 +6,15 @@ import LpTopText from "../components/LpTopText";
 import LpTextAnimation from "../components/LpTextAnimation";
 
 const StyledRow = styled(Row)`
-  justify-content: center;
-  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px;
+  padding-bottom: 60px;
+  padding-top: 0px;
+
+  @media (max-width: 760px) {
+    padding-bottom: 100px;
+  }
 `;
 
 const StyledVl = styled(Col)`
@@ -22,11 +29,7 @@ const StyledVl = styled(Col)`
   }
 `;
 
-const StyledDiv1 = styled.div`
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  flex-direction: column;
+const StyledDiv = styled.div`
   width: 100%;
   padding-top: 200px;
   padding-bottom: 80px;
@@ -36,30 +39,15 @@ const StyledDiv1 = styled.div`
   }
 `;
 
-const StyledDiv2 = styled.div`
-  display: flex;
-  max-width: 1200px;
-  width: 100%;
-  padding-bottom: 60px;
-
-  @media (max-width: 760px) {
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 100px;
-  }
-`;
-
 const Home = () => (
   <Layout>
-    <StyledRow>
-      <StyledDiv1>
-        <StyledDiv2>
-          <LpTopText />
-          <StyledVl lg="2" />
-          <LpTextAnimation />
-        </StyledDiv2>
-      </StyledDiv1>
-    </StyledRow>
+    <StyledDiv>
+      <StyledRow>
+        <LpTopText />
+        <StyledVl lg="1" />
+        <LpTextAnimation />
+      </StyledRow>
+    </StyledDiv>
   </Layout>
 );
 

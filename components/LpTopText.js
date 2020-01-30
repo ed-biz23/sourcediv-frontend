@@ -3,22 +3,20 @@ import styled from "styled-components";
 
 const StyledCol = styled(Col)`
   display: flex;
-  align-items: center;
   justify-content: flex-end;
   z-index: 100;
-  text-align: right;
-  flex: 1 1 0%;
   padding-left: 0px;
   padding-right: 0px;
 
   @media (max-width: 760px) {
+    justify-content: center;
     padding-top: 60px;
     padding-bottom: 50px;
-    justify-content: center;
   }
 `;
 
 const StyledH1 = styled.h1`
+  text-align: right;
   font-size: 80px;
   color: rgb(15, 27, 50);
   max-width: 600px;

@@ -5,21 +5,11 @@ import InputField from "./InputField";
 
 const StyledCol = styled(Col)`
   display: flex;
-  min-width: 320px;
   margin-left: 0px;
   justify-content: center;
-  align-items: flex-start;
-  flex: 1 1 0%;
   padding-left: 0px;
   padding-right: 0px;
   flex-direction: column;
-
-  @media (max-width: 760px) {
-    margin-left: 0px;
-    min-width: 300px;
-    max-width: 300px;
-    align-items: center;
-  }
 `;
 
 const StyledH2 = styled.h2`
@@ -29,7 +19,8 @@ const StyledH2 = styled.h2`
   font-weight: 400;
   line-height: 42px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 
   @media (max-width: 760px) {
     max-width: 350px;
@@ -89,7 +80,7 @@ const StyledBr = styled.br`
 `;
 
 const LpTextAnimation = () => (
-  <StyledCol lg="5" md="12">
+  <StyledCol lg="6" md="12">
     <StyledH2>
       {"your team's"}
       <StyledBr />
