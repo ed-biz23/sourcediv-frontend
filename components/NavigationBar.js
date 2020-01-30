@@ -11,22 +11,52 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
+  NavbarText,
+  Button
 } from "reactstrap";
-import Link from "next/link";
+import styled from "styled-components";
 
-const NavigationBar = props => {
+const StyledDiv = styled.div`
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+    &:hover {
+      color: #0275d8;
+    }
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+  }
+
+  @media (max-width: 760px) {
+    .nav-item {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .dropdown {
+      display: none;
+    }
+  }
+`;
+
+const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <StyledDiv>
       <Navbar color="white" light expand="md" fixed="top">
-        <NavbarBrand>SourceDiv</NavbarBrand>
+        <NavbarBrand href="/">SourceDev</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="ml-auto" navbar>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Use cases
@@ -42,33 +72,35 @@ const NavigationBar = props => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink>Templates</NavLink>
+              <NavLink href="#">Templates</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>Integrations</NavLink>
+              <NavLink href="#">Integrations</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>Docs</NavLink>
+              <NavLink href="#">Docs</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>FAQ</NavLink>
+              <NavLink href="#">FAQ</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>Pricing</NavLink>
+              <NavLink href="#">Pricing</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>Blog</NavLink>
+              <NavLink href="#">Blog</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>Login</NavLink>
+              <NavLink href="#">Login</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>SIGN UP FREE</NavLink>
+              <NavLink href="#">
+                <Button color="primary">SIGN UP FREE</Button>
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
-    </div>
+    </StyledDiv>
   );
 };
 
