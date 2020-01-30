@@ -3,6 +3,7 @@ import { Row } from "reactstrap";
 import styled from "styled-components";
 
 import LpTopText from "../components/LpTopText";
+import LpTextAnimation from "../components/LpTextAnimation";
 
 const StyledRow = styled(Row)`
   justify-content: center;
@@ -42,6 +43,7 @@ const Home = () => (
       <StyledDiv1>
         <StyledDiv2>
           <LpTopText />
+          <LpTextAnimation />
         </StyledDiv2>
       </StyledDiv1>
     </StyledRow>

@@ -8,6 +8,8 @@ const StyledCol = styled(Col)`
   z-index: 100;
   text-align: right;
   flex: 1 1 0%;
+  padding-left: 0px;
+  padding-right: 0px;
 
   @media (max-width: 760px) {
     padding-top: 60px;
