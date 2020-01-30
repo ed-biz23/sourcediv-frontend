@@ -12,6 +12,7 @@ const StyledCol = styled(Col)`
   flex: 1 1 0%;
   padding-left: 0px;
   padding-right: 0px;
+  flex-direction: column;
 
   @media (max-width: 760px) {
     margin-left: 0px;
@@ -27,15 +28,14 @@ const StyledH2 = styled.h2`
   max-width: 600px;
   font-weight: 400;
   line-height: 42px;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 
   @media (max-width: 760px) {
     max-width: 350px;
     line-height: 32px;
     font-size: 32px;
     text-align: center;
-    margin-top: 0px;
   }
 `;
 
@@ -89,7 +89,7 @@ const StyledBr = styled.br`
 `;
 
 const LpTextAnimation = () => (
-  <StyledCol lg="6" md="12">
+  <StyledCol lg="5" md="12">
     <StyledH2>
       {"your team's"}
       <StyledBr />
@@ -98,7 +98,7 @@ const LpTextAnimation = () => (
       {"in a fast flexible workspace"}
       <br />
     </StyledH2>
-    {/* <InputField /> */}
+    <InputField />
   </StyledCol>
 );
 

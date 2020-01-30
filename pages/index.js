@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { Row } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import styled from "styled-components";
 
 import LpTopText from "../components/LpTopText";
@@ -8,6 +8,18 @@ import LpTextAnimation from "../components/LpTextAnimation";
 const StyledRow = styled(Row)`
   justify-content: center;
   align-items: center;
+`;
+
+const StyledVl = styled(Col)`
+  width: 1px;
+  max-width: 1px;
+  background-color: rgba(201, 201, 201, 0.59);
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0px;
+  @media (max-width: 760px) {
+    display: none;
+  }
 `;
 
 const StyledDiv1 = styled.div`
@@ -43,6 +55,7 @@ const Home = () => (
       <StyledDiv1>
         <StyledDiv2>
           <LpTopText />
+          <StyledVl lg="2" />
           <LpTextAnimation />
         </StyledDiv2>
       </StyledDiv1>

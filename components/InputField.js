@@ -3,9 +3,9 @@ import styled from "styled-components";
 
 const InputField = () => (
   <InputGroup>
-    <Input />
+    <Input placeholder="name@company.com" />
     <InputGroupAddon addonType="append">
-      <Button color="secondary">To the Right!</Button>
+      <Button color="primary">SIGN UP FREE</Button>
     </InputGroupAddon>
   </InputGroup>
 );

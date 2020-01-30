@@ -37,7 +37,7 @@ const StyledH1 = styled.h1`
 `;
 
 const LpTopText = () => (
-  <StyledCol lg="6" md="12">
+  <StyledCol lg="5" md="12">
     <StyledH1>
       {"build grow "}
       <br />
