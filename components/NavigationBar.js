@@ -16,6 +16,7 @@ import {
 } from "reactstrap";
 import styled from "styled-components";
 
+// Styled for bootstrap navbar
 const StyledDiv = styled.div`
   .navbar-light .navbar-nav .nav-link {
     color: black;

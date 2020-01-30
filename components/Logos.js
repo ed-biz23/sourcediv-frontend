@@ -7,12 +7,12 @@ const StyledCol = styled(Col)`
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding-bottom: 30px;
+  padding: 0 0 30px 0;
 `;
 
 // Styling the bootstrap Row
 const StyledRow = styled(Row)`
-  margin: 0 20px 0 20px;
+  padding: 0 15% 0 15%;
 `;
 
 // Styling the img tag
