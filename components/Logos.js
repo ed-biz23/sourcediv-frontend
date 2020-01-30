@@ -1,29 +1,41 @@
-import { Fragment } from "react";
-import { Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import styled from "styled-components";
 
 const StyledCol = styled(Col)`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  max-width: 120px;
-  min-height: 83px;
-  margin: 10px;
+  margin: auto;
+  padding-bottom: 30px;
+`;
+
+const StyledRow = styled(Row)`
+  margin: 0 20px 0 20px;
+`;
+
+const StyledImg = styled.img`
+  max-width: 100%;
+  max-height: 100%;
 `;
 
 const Logos = () => (
-  <Fragment>
-    <Col lg="2" md="12">
-      <img
-        style={{
-          maxHeight: "20%",
-          maxWidth: "20%"
-        }}
-        src={"http://localhost:3000/logos/ownzones.svg"}
-      ></img>
-    </Col>
-  </Fragment>
+  <StyledRow>
+    <StyledCol lg="2" md="12">
+      <StyledImg src="/logos/ownzones.svg" />
+    </StyledCol>
+    <StyledCol lg="2" md="12">
+      <StyledImg src="/logos/portfoliobox.png" />
+    </StyledCol>
+    <StyledCol lg="2" md="12">
+      <StyledImg src="/logos/waydev.svg" />
+    </StyledCol>
+    <StyledCol lg="2" md="12">
+      <StyledImg src="/logos/colorelephant.svg" />
+    </StyledCol>
+    <StyledCol lg="2" md="12">
+      <StyledImg src="/logos/mvpfactory.svg" />
+    </StyledCol>
+  </StyledRow>
 );
 
 export default Logos;

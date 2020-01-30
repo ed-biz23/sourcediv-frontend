@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import LpTopText from "../components/LpTopText";
 import LpTextAnimation from "../components/LpTextAnimation";
+import Logos from "../components/Logos";
 
 const StyledRow = styled(Row)`
   max-width: 1200px;
@@ -47,6 +48,7 @@ const Home = () => (
         <StyledVl lg="1" />
         <LpTextAnimation />
       </StyledRow>
+      <Logos />
     </StyledDiv>
   </Layout>
 );

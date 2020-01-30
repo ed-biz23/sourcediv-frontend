@@ -1,6 +1,7 @@
 import { Col } from "reactstrap";
 import styled from "styled-components";
 
+// Styling the bootstrap col
 const StyledCol = styled(Col)`
   display: flex;
   justify-content: flex-end;
@@ -15,6 +16,7 @@ const StyledCol = styled(Col)`
   }
 `;
 
+// Styling the H1 tag
 const StyledH1 = styled.h1`
   text-align: right;
   font-size: 80px;

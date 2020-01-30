@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import InputField from "./InputField";
 
+// Styling the bootstrap col
 const StyledCol = styled(Col)`
   display: flex;
   margin-left: 0px;
@@ -12,6 +13,7 @@ const StyledCol = styled(Col)`
   flex-direction: column;
 `;
 
+// Styling the h2 tag
 const StyledH2 = styled.h2`
   font-size: 36px;
   color: rgb(15, 27, 50);
@@ -30,6 +32,7 @@ const StyledH2 = styled.h2`
   }
 `;
 
+// Styling the animation behavior
 const StyledAniSpan = styled.span`
   &:before {
     content: " know-how";
@@ -72,6 +75,7 @@ const StyledAniSpan = styled.span`
   }
 `;
 
+// Changing the behavior of the br based on the screen size
 const StyledBr = styled.br`
   display: none;
   @media (max-width: 760px) {
