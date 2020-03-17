@@ -1,123 +1,155 @@
-{ jobs: [
-  {
-    _id: {
-      $oid: '5e597e7c7fcafd7a1a77abfb'
-    },
-    title: 'Junior Full-Stack Engineer',
-    role: 'Software Engineer',
-    info:
-      'In charge of building consumer-grade experiences using the latest mobile and web technologies and design considerations, and building and hooking up to modern APIs and data sources.',
-    description:
-      'As a Junior Full Stack Software Engineer you will get to work on a high-caliber team within one of the top health systems in the world. To drive this expanded focus on the consumer, the Mount Sinai Health System is launching a new Consumer Digital Solutions team, as an affiliate of the Population Health division, Mount Sinai Health Partners (MSHP). The Junior Full Stack Software Engineer will be responsible for building consumer-grade experiences using the latest mobile and web technologies and design considerations, and building and hooking up to modern APIs and data sources. You will report directly to the CTO and collaborate with the Product Strategy team, as well as clinical, operational, and sales leads within the health system to develop integrated solutions. The ultimate goal is to deliver real-world, modern products that help patients with access, navigation, service, payments, and overall clinical outcomes. The long-term vision for the team is to scale this platform across the enterprise and potentially ‘spin out’ to develop products for and with other health systems.',
-    createdAt: {
-      $date: {
-        $numberLong: '1607731200000'
-      }
-    },
-    requiredAssessments: ['URL to assessment2', 'URL to assessment3'],
-    responsibilities:
-      'Team Collaboration: Work with Product Management and UX/UI designers, turning mockups into beautiful, consumer- grade experiences. Attend daily standups and communicate with engineering manager and product managers. Domain Knowledge: Follow the market and the latest and greatest technologies being used to engage consumers and build great products. Know the relevant libraries and frameworks and be able to differentiate ‘hype’ from ‘game changer.’ Technical Skills: Have strong command of a programming language on front end and back end, as well as ability to learn new technologies quickly by prototyping and digging in. Product Development: Build mobile-first web and native applications in an agile environment. Be able to provide estimates and deliver high-quality output on-time and in-budget.',
-    baseSalary: {
-      $numberInt: '70000'
-    },
-    location: 'New York, NY',
-    technologies: ['XML'],
-    employerId: {
-      $oid: '4e5960b37fcafd7a1a77a111'
-    },
-    expirationDate: {
-      $date: {
-        $numberLong: '1609286400000'
-      }
-    },
-    companyId: {
-      $oid: '5e67ea718c2137072a74cdfd'
-    },
-    employmentType: 'Full-Time',
-    perks: 'Lunch',
-    benefits: ['Housing'],
-    appliedBy: [
-      {
-        $oid: '5e5960b37fcafd7a1a77abe7'
-      }
-    ],
-    tags: ['back-end', 'front-end']
-  },
-  {
-    _id: {
-      $oid: '5e6a44598c2137072a74ce00'
-    },
-    title: 'Entry Level Software Developer',
-    role: 'Software Developer',
-    info:
-      'CloudServiceTek is hiring for multiple Software Developers with passion to keep up to date with the latest software development technologies and methodologies to support our development team.',
-    description:
-      'CloudServiceTek is hiring for multiple Software Developers with passion to keep up to date with the latest software development technologies and methodologies to support our development team.',
-    location: 'New York, NY',
-    createdAt: {
-      $date: {
-        $numberLong: '1584849600000'
-      }
-    },
-    requiredAssessments: ['URL to assessment1', 'URL to assessment3'],
-    responsibilities:
-      'You will involve in analysis, design, and development and testing phases of Software Development Lifecycle. Deliver code which is well-factored, clean, reusable and to a high degree of quality. Contribute to internal process and system improvements to ensure maximum efficiency across the company. Communicate the progress of tasks to create an audit trail to ensure a clear understanding for relevant parties.',
-    baseSalary: {
-      $numberInt: '60000'
-    },
-    technologies: ['Java', 'C#', 'Python'],
-    employerId: {
-      $oid: '4e5960b37fcafd7a1a77a111'
-    },
-    expirationDate: {
-      $date: {
-        $numberLong: '1585281600000'
-      }
-    },
-    companyId: {
-      $oid: '5e67ea718c2137072a74cdfd'
-    },
-    employmentType: 'Full-Time',
-    perks: 'Other',
-    benefits: ['Paid time off'],
-    tags: ['front-end', 'back-end']
-  },
-  {
-    _id: {
-      $oid: '5e6a7fa48c2137072a74ce03'
-    },
-    title: 'Mainframe Programmer',
-    role: 'Mainframe Programmer',
-    info: 'Technology Analyst',
-    description:
-      'In the role of Technology Analyst, you will interface with key stakeholders and apply your technical proficiency across different stages of the Software Development Life Cycle including Requirements Elicitation and Design. You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.',
-    location: 'Weehawken, NJ',
-    createdAt: {
-      $date: {
-        $numberLong: '1584763200000'
-      }
-    },
-    requiredAssessments: ['front-end'],
-    responsibilities:
-      'You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.',
-    baseSalary: {
-      $numberInt: '60000'
-    },
-    technologies: ['COBOL', 'JCL', 'CICS', 'VSAM', 'DB2', 'Platinum', 'QMF'],
-    employerId: {
-      $oid: '5e6a81178c2137072a74ce04'
-    },
-    expirationDate: {
-      $date: {
-        $numberLong: '1585454400000'
-      }
-    },
-    companyId: {
-      $oid: '5e6a823a8c2137072a74ce06'
-    },
-    employmentType: 'Full-time',
-    perks: 'Other',
-    benefits: ['Parental leave', 'Paid time off', 'Health insurance'],
-    tags: ['Dev-Ops']
-  }
-]}
+{
+	"jobs": [{
+			"_id": {
+				"$oid": "5e596bae7fcafd7a1a77abe9"
+			},
+			"title": "Java Software Engineer",
+			"role": "Software Engineer",
+			"info": "BlindData is calling all talented software engineers to test yourself against the best engineers from Google and MIT.",
+			"description": "-Collaborate with our testing problem contributors to author, edit and deploy coding challenges on our platform. -Constantly enhance platform performance and help scale our system as we grow. -Create experiences for app and web environments. -Partner with Lead Developer and CTO on various projects. -Manage individual project priorities, deadlines and deliverables. -Maintain and iterate on company website and overall user experience for candidates and partners. -Work on a small, agile and growing team to help us build out the business and expand our user base.",
+			"createdAt": {
+				"$date": {
+					"$numberLong": "1582848000000"
+				}
+			},
+			"requiredAssessments": ["URL to assessment1", "URL to assessment2"],
+			"responsibilities": "works",
+			"baseSalary": {
+				"$numberInt": "100000"
+			},
+			"location": "New York, NY",
+			"technologies": ["Python", "C++", "C#", "Java", "PHP"],
+			"employerId": {
+				"$oid": "4e5960b37fcafd7a1a77a111"
+			},
+			"expirationDate": {
+				"$date": {
+					"$numberLong": "1584835200000"
+				}
+			},
+			"companyId": {
+				"$oid": "5e5d44778c2137072a74cdd8"
+			},
+			"employmentType": "Full-Time",
+			"perks": "Lunch",
+			"benefits": ["Health insurance"],
+			"appliedBy": [{
+				"$oid": "5e5960b37fcafd7a1a77abe7"
+			}],
+			"tags": ["back-end", "front-end"],
+			"__v": {
+				"$numberInt": "3"
+			}
+		},
+		{
+			"_id": {
+				"$oid": "5e597e7c7fcafd7a1a77abfb"
+			},
+			"title": "Junior Full-Stack Engineer",
+			"role": "Software Engineer",
+			"info": "In charge of building consumer-grade experiences using the latest mobile and web technologies and design considerations, and building and hooking up to modern APIs and data sources.",
+			"description": "As a Junior Full Stack Software Engineer you will get to work on a high-caliber team within one of the top health systems in the world. To drive this expanded focus on the consumer, the Mount Sinai Health System is launching a new Consumer Digital Solutions team, as an affiliate of the Population Health division, Mount Sinai Health Partners (MSHP). The Junior Full Stack Software Engineer will be responsible for building consumer-grade experiences using the latest mobile and web technologies and design considerations, and building and hooking up to modern APIs and data sources. You will report directly to the CTO and collaborate with the Product Strategy team, as well as clinical, operational, and sales leads within the health system to develop integrated solutions. The ultimate goal is to deliver real-world, modern products that help patients with access, navigation, service, payments, and overall clinical outcomes. The long-term vision for the team is to scale this platform across the enterprise and potentially ‘spin out’ to develop products for and with other health systems.",
+			"createdAt": {
+				"$date": {
+					"$numberLong": "1607731200000"
+				}
+			},
+			"requiredAssessments": ["URL to assessment2", "URL to assessment3"],
+			"responsibilities": "Team Collaboration: Work with Product Management and UX/UI designers, turning mockups into beautiful, consumer- grade experiences. Attend daily standups and communicate with engineering manager and product managers. Domain Knowledge: Follow the market and the latest and greatest technologies being used to engage consumers and build great products. Know the relevant libraries and frameworks and be able to differentiate ‘hype’ from ‘game changer.’ Technical Skills: Have strong command of a programming language on front end and back end, as well as ability to learn new technologies quickly by prototyping and digging in. Product Development: Build mobile-first web and native applications in an agile environment. Be able to provide estimates and deliver high-quality output on-time and in-budget.",
+			"baseSalary": {
+				"$numberInt": "70000"
+			},
+			"location": "New York, NY",
+			"technologies": ["XML"],
+			"employerId": {
+				"$oid": "4e5960b37fcafd7a1a77a111"
+			},
+			"expirationDate": {
+				"$date": {
+					"$numberLong": "1609286400000"
+				}
+			},
+			"companyId": {
+				"$oid": "5e67ea718c2137072a74cdfd"
+			},
+			"employmentType": "Full-Time",
+			"perks": "Lunch",
+			"benefits": ["Housing"],
+			"appliedBy": [{
+				"$oid": "5e5960b37fcafd7a1a77abe7"
+			}],
+			"tags": ["back-end", "front-end"]
+		},
+		{
+			"_id": {
+				"$oid": "5e6a44598c2137072a74ce00"
+			},
+			"title": "Entry Level Software Developer",
+			"role": "Software Developer",
+			"info": "CloudServiceTek is hiring for multiple Software Developers with passion to keep up to date with the latest software development technologies and methodologies to support our development team.",
+			"description": "CloudServiceTek is hiring for multiple Software Developers with passion to keep up to date with the latest software development technologies and methodologies to support our development team.",
+			"location": "New York, NY",
+			"createdAt": {
+				"$date": {
+					"$numberLong": "1584849600000"
+				}
+			},
+			"requiredAssessments": ["URL to assessment1", "URL to assessment3"],
+			"responsibilities": "You will involve in analysis, design, and development and testing phases of Software Development Lifecycle. Deliver code which is well-factored, clean, reusable and to a high degree of quality. Contribute to internal process and system improvements to ensure maximum efficiency across the company. Communicate the progress of tasks to create an audit trail to ensure a clear understanding for relevant parties.",
+			"baseSalary": {
+				"$numberInt": "60000"
+			},
+			"technologies": ["Java", "C#", "Python"],
+			"employerId": {
+				"$oid": "4e5960b37fcafd7a1a77a111"
+			},
+			"expirationDate": {
+				"$date": {
+					"$numberLong": "1585281600000"
+				}
+			},
+			"companyId": {
+				"$oid": "5e67ea718c2137072a74cdfd"
+			},
+			"employmentType": "Full-Time",
+			"perks": "Other",
+			"benefits": ["Paid time off"],
+			"tags": ["front-end", "back-end"]
+		}, {
+			"_id": {
+				"$oid": "5e6a7fa48c2137072a74ce03"
+			},
+			"title": "Mainframe Programmer",
+			"role": "Mainframe Programmer",
+			"info": "Technology Analyst",
+			"description": "In the role of Technology Analyst, you will interface with key stakeholders and apply your technical proficiency across different stages of the Software Development Life Cycle including Requirements Elicitation and Design. You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.",
+			"location": "Weehawken, NJ",
+			"createdAt": {
+				"$date": {
+					"$numberLong": "1584763200000"
+				}
+			},
+			"requiredAssessments": ["front-end"],
+			"responsibilities": "You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.",
+			"baseSalary": {
+				"$numberInt": "60000"
+			},
+			"technologies": ["COBOL", "JCL", "CICS", "VSAM", "DB2", "Platinum", "QMF"],
+			"employerId": {
+				"$oid": "5e6a81178c2137072a74ce04"
+			},
+			"expirationDate": {
+				"$date": {
+					"$numberLong": "1585454400000"
+				}
+			},
+			"companyId": {
+				"$oid": "5e6a823a8c2137072a74ce06"
+			},
+			"employmentType": "Full-time",
+			"perks": "Other",
+			"benefits": ["Parental leave", "Paid time off", "Health insurance"],
+			"tags": ["Dev-Ops"]
+		}
+	]
+}
