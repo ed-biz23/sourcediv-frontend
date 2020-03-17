@@ -85,48 +85,5 @@
 		"__v": {
 			"$numberInt": "0"
 		}
-	}, {
-		"_id": {
-			"$oid": "5e70fc707198cbc1e8c1ee0e"
-		},
-		"requiredAssessments": ["URL to assessment2", "URL to assessment4"],
-		"technologies": ["React", "Redux", "Ruby", "PostgreSQL", "AWS"],
-		"benefits": ["Health insurance"],
-		"appliedBy": [],
-		"tags": ["front-end", "back-end"],
-		"interviewProcess": [],
-		"title": "Python Developer",
-		"role": "Software Developer",
-		"tagline": "Building a team of entrepreneurial and experienced Full Stack Developers with a demonstrated passion for DevOps culture.",
-		"description": "We are building a team of entrepreneurial and experienced Full Stack Developers with a demonstrated passion for DevOps culture. At MD Ally, you`ll get to leverage your knowledge of hardware, software, processes and procedures to devise custom solutions and systems.",
-		"location": "Weehawken, NJ",
-		"createdAt": {
-			"$date": {
-				"$numberLong": "1584462960049"
-			}
-		},
-		"responsibilities": "You will involve in analysis, design, and development and testing phases of Software Development Lifecycle.Deliver code which is well-factored, clean, reusable and to a high degree of quality.Contribute to internal process and system improvements to ensure maximum efficiency across the company.Communicate the progress of tasks to create an audit trail to ensure a clear understanding for relevant parties.",
-		"baseSalary": {
-			"$numberInt": "80000"
-		},
-		"employerId": {
-			"$oid": "5e70fc6f7198cbc1e8c1ee09"
-		},
-		"expirationDate": {
-			"$date": {
-				"$numberLong": "1584462960049"
-			}
-		},
-		"companyId": {
-			"$oid": "5e70fc6f7198cbc1e8c1ee04"
-		},
-		"employmentType": "Full-time",
-		"perks": "Lunch",
-		"applicantsCount": {
-			"$numberInt": "0"
-		},
-		"__v": {
-			"$numberInt": "0"
-		}
 	}]
 }
