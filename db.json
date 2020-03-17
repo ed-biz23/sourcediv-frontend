@@ -1,36 +1,11 @@
-[{
-	"_id": {
-		"$oid": "5e6a7fa48c2137072a74ce03"
-	},
-	"title": "Mainframe Programmer",
-	"role": "Mainframe Programmer",
-	"info": "Technology Analyst",
-	"description": "In the role of Technology Analyst, you will interface with key stakeholders and apply your technical proficiency across different stages of the Software Development Life Cycle including Requirements Elicitation and Design. You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.",
-	"location": "Weehawken, NJ",
-	"createdAt": {
-		"$date": {
-			"$numberLong": "1584763200000"
-		}
-	},
-	"requiredAssessments": ["front-end"],
-	"responsibilities": "You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.",
-	"baseSalary": {
-		"$numberInt": "60000"
-	},
-	"technologies": ["COBOL", "JCL", "CICS", "VSAM", "DB2", "Platinum", "QMF"],
-	"employerId": {
-		"$oid": "5e6a81178c2137072a74ce04"
-	},
-	"expirationDate": {
-		"$date": {
-			"$numberLong": "1585454400000"
-		}
-	},
-	"companyId": {
-		"$oid": "5e6a823a8c2137072a74ce06"
-	},
-	"employmentType": "Full-time",
-	"perks": "Other",
-	"benefits": ["Parental leave", "Paid time off", "Health insurance"],
-	"tags": ["Dev-Ops"]
-}]
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
