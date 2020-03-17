@@ -1,5 +1,4 @@
 {
-	"jobs": [{
 			"_id": {
 				"$oid": "5e596bae7fcafd7a1a77abe9"
 			},
@@ -151,5 +150,4 @@
 			"benefits": ["Parental leave", "Paid time off", "Health insurance"],
 			"tags": ["Dev-Ops"]
 		}
-	]
-}
+
