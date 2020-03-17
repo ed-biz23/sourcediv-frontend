@@ -80,7 +80,7 @@
 		"employmentType": "Full-time",
 		"perks": "Lunch",
 		"applicantsCount": {
-			"$numberInt": "0"
+			"$numberInt": "5"
 		},
 		"__v": {
 			"$numberInt": "0"
