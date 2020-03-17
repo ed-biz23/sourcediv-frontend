@@ -1,42 +1,36 @@
 {
 	"_id": {
-		"$oid": "5e596bae7fcafd7a1a77abe9"
+		"$oid": "5e6a7fa48c2137072a74ce03"
 	},
-	"title": "Java Software Engineer",
-	"role": "Software Engineer",
-	"info": "BlindData is calling all talented software engineers to test yourself against the best engineers from Google and MIT.",
-	"description": "-Collaborate with our testing problem contributors to author, edit and deploy coding challenges on our platform. -Constantly enhance platform performance and help scale our system as we grow. -Create experiences for app and web environments. -Partner with Lead Developer and CTO on various projects. -Manage individual project priorities, deadlines and deliverables. -Maintain and iterate on company website and overall user experience for candidates and partners. -Work on a small, agile and growing team to help us build out the business and expand our user base.",
+	"title": "Mainframe Programmer",
+	"role": "Mainframe Programmer",
+	"info": "Technology Analyst",
+	"description": "In the role of Technology Analyst, you will interface with key stakeholders and apply your technical proficiency across different stages of the Software Development Life Cycle including Requirements Elicitation and Design. You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.",
+	"location": "Weehawken, NJ",
 	"createdAt": {
 		"$date": {
-			"$numberLong": "1582848000000"
+			"$numberLong": "1584763200000"
 		}
 	},
-	"requiredAssessments": ["URL to assessment1", "URL to assessment2"],
-	"responsibilities": "works",
+	"requiredAssessments": ["front-end"],
+	"responsibilities": "You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.",
 	"baseSalary": {
-		"$numberInt": "100000"
+		"$numberInt": "60000"
 	},
-	"location": "New York, NY",
-	"technologies": ["Python", "C++", "C#", "Java", "PHP"],
+	"technologies": ["COBOL", "JCL", "CICS", "VSAM", "DB2", "Platinum", "QMF"],
 	"employerId": {
-		"$oid": "4e5960b37fcafd7a1a77a111"
+		"$oid": "5e6a81178c2137072a74ce04"
 	},
 	"expirationDate": {
 		"$date": {
-			"$numberLong": "1584835200000"
+			"$numberLong": "1585454400000"
 		}
 	},
 	"companyId": {
-		"$oid": "5e5d44778c2137072a74cdd8"
+		"$oid": "5e6a823a8c2137072a74ce06"
 	},
-	"employmentType": "Full-Time",
-	"perks": "Lunch",
-	"benefits": ["Health insurance"],
-	"appliedBy": [{
-		"$oid": "5e5960b37fcafd7a1a77abe7"
-	}],
-	"tags": ["back-end", "front-end"],
-	"__v": {
-		"$numberInt": "3"
-	}
+	"employmentType": "Full-time",
+	"perks": "Other",
+	"benefits": ["Parental leave", "Paid time off", "Health insurance"],
+	"tags": ["Dev-Ops"]
 }
