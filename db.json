@@ -1,4 +1,4 @@
-{
+[{
 	"_id": {
 		"$oid": "5e6a7fa48c2137072a74ce03"
 	},
@@ -33,4 +33,4 @@
 	"perks": "Other",
 	"benefits": ["Parental leave", "Paid time off", "Health insurance"],
 	"tags": ["Dev-Ops"]
-}
+}]
