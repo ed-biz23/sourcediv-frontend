@@ -1,38 +1,132 @@
 {
 	"jobs": [{
 		"_id": {
-			"$oid": "5e6a7fa48c2137072a74ce03"
+			"$oid": "5e70fc707198cbc1e8c1ee10"
 		},
-		"title": "Mainframe Programmer",
-		"role": "Mainframe Programmer",
-		"info": "Technology Analyst",
-		"description": "In the role of Technology Analyst, you will interface with key stakeholders and apply your technical proficiency across different stages of the Software Development Life Cycle including Requirements Elicitation and Design. You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.",
-		"location": "Weehawken, NJ",
+		"requiredAssessments": ["URL to assessment1", "URL to assessment2", "URL to assessment3", "URL to assessment5"],
+		"technologies": ["Scala", "HTTP", "Python"],
+		"benefits": ["Health insurance", "Other"],
+		"appliedBy": [],
+		"tags": ["front-end", "back-end"],
+		"interviewProcess": [],
+		"title": "Senior Software Engineer",
+		"role": "Software Engineer",
+		"tagline": "software developer tagline for entry level",
+		"description": "Software Developers with passion to keep up to date with the latest software development technologies and methodologies to support our development team.",
+		"location": "Teaneck, NJ",
 		"createdAt": {
 			"$date": {
-				"$numberLong": "1584763200000"
+				"$numberLong": "1584462960060"
 			}
 		},
-		"requiredAssessments": ["front-end"],
-		"responsibilities": "You will play an important role in creating the detailed level design artifacts. You will also deliver high quality code deliverables for a module, validation for all types of testing and support activities related to implementation, transition and warranty. You will be part of a learning culture, where teamwork and collaboration are encouraged, excellence is rewarded, and diversity is respected and valued.",
+		"responsibilities": "Develop high-quality software design and architectureDesign and build high performance scalable Student registration system using Micro Services and AWS Server-less architecture",
 		"baseSalary": {
-			"$numberInt": "60000"
+			"$numberInt": "110000"
 		},
-		"technologies": ["COBOL", "JCL", "CICS", "VSAM", "DB2", "Platinum", "QMF"],
 		"employerId": {
-			"$oid": "5e6a81178c2137072a74ce04"
+			"$oid": "5e70fc6f7198cbc1e8c1ee0b"
 		},
 		"expirationDate": {
 			"$date": {
-				"$numberLong": "1585454400000"
+				"$numberLong": "1584462960060"
 			}
 		},
 		"companyId": {
-			"$oid": "5e6a823a8c2137072a74ce06"
+			"$oid": "5e70fc6f7198cbc1e8c1ee06"
 		},
 		"employmentType": "Full-time",
-		"perks": "Other",
-		"benefits": ["Parental leave", "Paid time off", "Health insurance"],
-		"tags": ["Dev-Ops"]
+		"perks": "Lunch",
+		"applicantsCount": {
+			"$numberInt": "0"
+		},
+		"__v": {
+			"$numberInt": "0"
+		}
+	}, {
+		"_id": {
+			"$oid": "5e70fc707198cbc1e8c1ee0f"
+		},
+		"requiredAssessments": ["URL to assessment1", "URL to assessment2"],
+		"technologies": ["ReactJS", "JavaScript"],
+		"benefits": ["Health insurance", "Signing bonus"],
+		"appliedBy": [],
+		"tags": ["front-end", "back-end"],
+		"interviewProcess": [],
+		"title": "Full Stack Developer",
+		"role": "Software Developer",
+		"tagline": "Looking for a Full Stack Developer to spearhead their online eCommerce platform.",
+		"description": "You will join a team of 20 devoted and confident Full Stack Developers where collaborating is essential to achieving key business objectives. Their VP of Engineering encourages you to bring your ideas forward at any given point and wants you to make an impact on the organisation as much as possible.",
+		"location": "Los Angeles, CA",
+		"createdAt": {
+			"$date": {
+				"$numberLong": "1584462960053"
+			}
+		},
+		"responsibilities": "Work on time",
+		"baseSalary": {
+			"$numberInt": "120000"
+		},
+		"employerId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee0a"
+		},
+		"expirationDate": {
+			"$date": {
+				"$numberLong": "1584462960053"
+			}
+		},
+		"companyId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee05"
+		},
+		"employmentType": "Full-time",
+		"perks": "Lunch",
+		"applicantsCount": {
+			"$numberInt": "0"
+		},
+		"__v": {
+			"$numberInt": "0"
+		}
+	}, {
+		"_id": {
+			"$oid": "5e70fc707198cbc1e8c1ee0e"
+		},
+		"requiredAssessments": ["URL to assessment2", "URL to assessment4"],
+		"technologies": ["React", "Redux", "Ruby", "PostgreSQL", "AWS"],
+		"benefits": ["Health insurance"],
+		"appliedBy": [],
+		"tags": ["front-end", "back-end"],
+		"interviewProcess": [],
+		"title": "Python Developer",
+		"role": "Software Developer",
+		"tagline": "Building a team of entrepreneurial and experienced Full Stack Developers with a demonstrated passion for DevOps culture.",
+		"description": "We are building a team of entrepreneurial and experienced Full Stack Developers with a demonstrated passion for DevOps culture. At MD Ally, you`ll get to leverage your knowledge of hardware, software, processes and procedures to devise custom solutions and systems.",
+		"location": "Weehawken, NJ",
+		"createdAt": {
+			"$date": {
+				"$numberLong": "1584462960049"
+			}
+		},
+		"responsibilities": "You will involve in analysis, design, and development and testing phases of Software Development Lifecycle.Deliver code which is well-factored, clean, reusable and to a high degree of quality.Contribute to internal process and system improvements to ensure maximum efficiency across the company.Communicate the progress of tasks to create an audit trail to ensure a clear understanding for relevant parties.",
+		"baseSalary": {
+			"$numberInt": "80000"
+		},
+		"employerId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee09"
+		},
+		"expirationDate": {
+			"$date": {
+				"$numberLong": "1584462960049"
+			}
+		},
+		"companyId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee04"
+		},
+		"employmentType": "Full-time",
+		"perks": "Lunch",
+		"applicantsCount": {
+			"$numberInt": "0"
+		},
+		"__v": {
+			"$numberInt": "0"
+		}
 	}]
 }
