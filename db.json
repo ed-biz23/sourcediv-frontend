@@ -85,5 +85,179 @@
 		"__v": {
 			"$numberInt": "0"
 		}
+	}, 
+	{
+		"_id": {
+			"$oid": "5e70fc707198cbc1e8c1ee10"
+		},
+		"requiredAssessments": ["URL to assessment1", "URL to assessment2", "URL to assessment3", "URL to assessment5"],
+		"technologies": ["Scala", "HTTP", "Python"],
+		"benefits": ["Health insurance", "Other"],
+		"appliedBy": [],
+		"tags": ["front-end", "back-end"],
+		"interviewProcess": [],
+		"title": "Senior Software Engineer",
+		"role": "Software Engineer",
+		"tagline": "software developer tagline for entry level",
+		"description": "Software Developers with passion to keep up to date with the latest software development technologies and methodologies to support our development team.",
+		"location": "Teaneck, NJ",
+		"createdAt": {
+			"$date": {
+				"$numberLong": "1584462960060"
+			}
+		},
+		"responsibilities": "Develop high-quality software design and architectureDesign and build high performance scalable Student registration system using Micro Services and AWS Server-less architecture",
+		"baseSalary": {
+			"$numberInt": "110000"
+		},
+		"employerId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee0b"
+		},
+		"expirationDate": {
+			"$date": {
+				"$numberLong": "1584462960060"
+			}
+		},
+		"companyId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee06"
+		},
+		"employmentType": "Full-time",
+		"perks": "Lunch",
+		"applicantsCount": {
+			"$numberInt": "0"
+		},
+		"__v": {
+			"$numberInt": "0"
+		}
+	}, {
+		"_id": {
+			"$oid": "5e70fc707198cbc1e8c1ee0f"
+		},
+		"requiredAssessments": ["URL to assessment1", "URL to assessment2"],
+		"technologies": ["ReactJS", "JavaScript"],
+		"benefits": ["Health insurance", "Signing bonus"],
+		"appliedBy": [],
+		"tags": ["front-end", "back-end"],
+		"interviewProcess": [],
+		"title": "Full Stack Developer",
+		"role": "Software Developer",
+		"tagline": "Looking for a Full Stack Developer to spearhead their online eCommerce platform.",
+		"description": "You will join a team of 20 devoted and confident Full Stack Developers where collaborating is essential to achieving key business objectives. Their VP of Engineering encourages you to bring your ideas forward at any given point and wants you to make an impact on the organisation as much as possible.",
+		"location": "Los Angeles, CA",
+		"createdAt": {
+			"$date": {
+				"$numberLong": "1584462960053"
+			}
+		},
+		"responsibilities": "Work on time",
+		"baseSalary": {
+			"$numberInt": "120000"
+		},
+		"employerId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee0a"
+		},
+		"expirationDate": {
+			"$date": {
+				"$numberLong": "1584462960053"
+			}
+		},
+		"companyId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee05"
+		},
+		"employmentType": "Full-time",
+		"perks": "Lunch",
+		"applicantsCount": {
+			"$numberInt": "5"
+		},
+		"__v": {
+			"$numberInt": "0"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "5e70fc707198cbc1e8c1ee10"
+		},
+		"requiredAssessments": ["URL to assessment1", "URL to assessment2", "URL to assessment3", "URL to assessment5"],
+		"technologies": ["Scala", "HTTP", "Python"],
+		"benefits": ["Health insurance", "Other"],
+		"appliedBy": [],
+		"tags": ["front-end", "back-end"],
+		"interviewProcess": [],
+		"title": "Senior Software Engineer",
+		"role": "Software Engineer",
+		"tagline": "software developer tagline for entry level",
+		"description": "Software Developers with passion to keep up to date with the latest software development technologies and methodologies to support our development team.",
+		"location": "Teaneck, NJ",
+		"createdAt": {
+			"$date": {
+				"$numberLong": "1584462960060"
+			}
+		},
+		"responsibilities": "Develop high-quality software design and architectureDesign and build high performance scalable Student registration system using Micro Services and AWS Server-less architecture",
+		"baseSalary": {
+			"$numberInt": "110000"
+		},
+		"employerId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee0b"
+		},
+		"expirationDate": {
+			"$date": {
+				"$numberLong": "1584462960060"
+			}
+		},
+		"companyId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee06"
+		},
+		"employmentType": "Full-time",
+		"perks": "Lunch",
+		"applicantsCount": {
+			"$numberInt": "0"
+		},
+		"__v": {
+			"$numberInt": "0"
+		}
+	}, {
+		"_id": {
+			"$oid": "5e70fc707198cbc1e8c1ee0f"
+		},
+		"requiredAssessments": ["URL to assessment1", "URL to assessment2"],
+		"technologies": ["ReactJS", "JavaScript"],
+		"benefits": ["Health insurance", "Signing bonus"],
+		"appliedBy": [],
+		"tags": ["front-end", "back-end"],
+		"interviewProcess": [],
+		"title": "Full Stack Developer",
+		"role": "Software Developer",
+		"tagline": "Looking for a Full Stack Developer to spearhead their online eCommerce platform.",
+		"description": "You will join a team of 20 devoted and confident Full Stack Developers where collaborating is essential to achieving key business objectives. Their VP of Engineering encourages you to bring your ideas forward at any given point and wants you to make an impact on the organisation as much as possible.",
+		"location": "Los Angeles, CA",
+		"createdAt": {
+			"$date": {
+				"$numberLong": "1584462960053"
+			}
+		},
+		"responsibilities": "Work on time",
+		"baseSalary": {
+			"$numberInt": "120000"
+		},
+		"employerId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee0a"
+		},
+		"expirationDate": {
+			"$date": {
+				"$numberLong": "1584462960053"
+			}
+		},
+		"companyId": {
+			"$oid": "5e70fc6f7198cbc1e8c1ee05"
+		},
+		"employmentType": "Full-time",
+		"perks": "Lunch",
+		"applicantsCount": {
+			"$numberInt": "5"
+		},
+		"__v": {
+			"$numberInt": "0"
+		}
 	}]
 }
